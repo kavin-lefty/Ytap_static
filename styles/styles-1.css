@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 10px 30px; */
+}
+#front-section{
+    background-image: linear-gradient( to top,rgb(61, 28, 61),rgb(27, 27, 27), rgba(68, 31, 65, 0.993)); 
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav .navitem{
+    list-style-type: none;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav .navitem .item{
+    display: flex;
+    padding: 10px;
+}
+
+.nav .navitem .item a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav .roll h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.overview{
+    background-color:white;
+    padding: 50px;
+}
+.o-topic{
+    margin-bottom: 20px;
+}
+.overview .o-topic h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overview .o-first{
+    margin-left: 50px;
+    color: gray;
+}
+
+.overview .o-topic span{    
+    background: linear-gradient(to right, red, 30%,black);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.overview .o-content p{
+    margin: 20px 0px 0px 50px;
+    color: gray;
+}
+
+.syllabus{
+    background-color: lightgray;
+    padding: 50px;
+    line-height: 30px;
+}
+#overview{
+    line-height: 30px;
+
+}
+
+.syllabus .stopic h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stopic{
+    margin-bottom: 20px;
+}
+
+.syllabus .stopic span{    
+    background: linear-gradient(to right, red, 30%,black);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.syllabus .s-first{
+    margin:0 0 50px 50px;
+    color: gray;
+}
+
+.syllabus .l-topic{
+    margin: 0 0 20px 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.syllabus .l-box{
+    margin-left: 110px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:white ;
+    padding: 10px;
+}
+
+.syllabus .b-item{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+.syllabus .b-item i{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.faq .f-ques {
+    margin-left: 10px;
+}
+
+.faq .f-topic {
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.faq .f-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    margin: 5px 100px 10px 100px;
+    padding: 30px;
+    box-shadow: 10px 10px lightgray;
+    opacity: 0.1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.footer {
+    margin: 50px auto;
+    width: 70%;
+}
+
+.footer .content {
+    background: linear-gradient(black, rgb(33, 10, 51));
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footer .lines,.roll {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.footer .lines {
+    color: white;
+}
+
+.lines span {
+    color: yellow;
+}
+
+.footer .roll h5 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: yellow;
+}
